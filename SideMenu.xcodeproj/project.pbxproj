@@ -12,6 +12,10 @@
 		C90AD3FC22583AC3003989F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90AD3FA22583AC3003989F6 /* Main.storyboard */; };
 		C90AD3FE22583AC4003989F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90AD3FD22583AC4003989F6 /* Assets.xcassets */; };
 		C90AD40122583AC4003989F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90AD3FF22583AC4003989F6 /* LaunchScreen.storyboard */; };
+		C90AD40A22583FB1003989F6 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AD40922583FB1003989F6 /* SideMenuViewController.swift */; };
+		C90AD40C22583FE5003989F6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AD40B22583FE5003989F6 /* FirstViewController.swift */; };
+		C90AD40E22583FF1003989F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AD40D22583FF1003989F6 /* SecondViewController.swift */; };
+		C90AD41022583FFC003989F6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AD40F22583FFC003989F6 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C90AD3FD22583AC4003989F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90AD40022583AC4003989F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90AD40222583AC4003989F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90AD40922583FB1003989F6 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		C90AD40B22583FE5003989F6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C90AD40D22583FF1003989F6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C90AD40F22583FFC003989F6 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		C90AD3F522583AC3003989F6 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				C90AD40822583AF0003989F6 /* ViewController */,
 				C90AD3F622583AC3003989F6 /* AppDelegate.swift */,
-				C90AD3F822583AC3003989F6 /* ViewController.swift */,
 				C90AD3FA22583AC3003989F6 /* Main.storyboard */,
 				C90AD3FD22583AC4003989F6 /* Assets.xcassets */,
 				C90AD3FF22583AC4003989F6 /* LaunchScreen.storyboard */,
 				C90AD40222583AC4003989F6 /* Info.plist */,
 			);
 			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		C90AD40822583AF0003989F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C90AD3F822583AC3003989F6 /* ViewController.swift */,
+				C90AD40922583FB1003989F6 /* SideMenuViewController.swift */,
+				C90AD40B22583FE5003989F6 /* FirstViewController.swift */,
+				C90AD40D22583FF1003989F6 /* SecondViewController.swift */,
+				C90AD40F22583FFC003989F6 /* ThirdViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90AD3F922583AC3003989F6 /* ViewController.swift in Sources */,
+				C90AD40A22583FB1003989F6 /* SideMenuViewController.swift in Sources */,
 				C90AD3F722583AC3003989F6 /* AppDelegate.swift in Sources */,
+				C90AD40E22583FF1003989F6 /* SecondViewController.swift in Sources */,
+				C90AD41022583FFC003989F6 /* ThirdViewController.swift in Sources */,
+				C90AD40C22583FE5003989F6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
