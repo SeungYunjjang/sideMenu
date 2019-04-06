@@ -15,3 +15,7 @@
 ### Includes pan gestures 
 ### After the touch is released, the sideMenuView is displayed or disappears according to the aspect ratio.
 <img src="https://user-images.githubusercontent.com/49330255/55664798-38dafa80-586f-11e9-9a66-6eebbab44fd1.gif" height="200" width="100"> <img src="https://user-images.githubusercontent.com/49330255/55664799-38dafa80-586f-11e9-8b94-2c71eee66869.gif" height="200" width="100">
+
+
+
+포스팅 : https://yunjjang.tistory.com/2
